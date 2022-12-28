@@ -54,7 +54,7 @@ function Main() {
                   <td><span>E-mail</span><br /><input type="text" placeholder="E-mail"/></td>
                 </tr>
                 <tr>
-                  <td><span>Type here:</span> <br /><textarea cols="40" rows="4" placeholder='Ask us a question and we will reply to you as soon as possible.'/></td>
+                  <td><span>Type here:</span> <br /><textarea cols="30" rows="3" placeholder='Ask us a question and we will reply to you as soon as possible.'/></td>
                 </tr>
                 <tr>
                   <td><input className='submit' type="submit" value="Submit" /></td>
