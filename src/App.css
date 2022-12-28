@@ -1,0 +1,242 @@
+html{
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+.header{
+  background-color: rgb(34, 34, 34);
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  z-index: 85555555;
+}
+.header img{
+  position: absolute;
+  margin-right: 350px;
+  width: 70px;
+}
+.header ul{
+  margin: 0;
+  margin-top: 17px;
+}
+.header ul li{
+  
+  display:inline;
+  margin-left: 21px; ;
+  
+}
+.header ul li a{
+  color: #d6d6d6;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  transition: 0.15s;
+}
+.header ul li a:hover{
+  color: #b6b4b4;
+  transition: 0.15s;
+}
+/*about*/
+body{
+  background-color: #313131;
+}
+.about{
+  border-bottom-left-radius:100%;
+  border-bottom-right-radius:100%;
+  padding-top: 70px;
+  background-color: #292929;
+  height: 800px;
+  margin-bottom: 100px;
+}
+.about h3{
+  text-align: center;
+  font-size:29px;
+}
+.about p{
+  margin-top: 0;
+  position: absolute;
+  padding-top: 180px;
+  text-align: center;
+  padding-left: 400px;
+  width: 600px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d6d6d6;
+}
+.about img{
+  width: 400px;
+  margin-top: 50px;
+  border-radius: 40px;
+  float: right;
+  margin-right: 430px;
+}
+/*book cards*/
+.search{
+  display: flex;
+  justify-content: center;
+}
+.search input{
+  border: 2px solid rgb(19, 19, 19);
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+.books-list{
+  padding-top: 30px;
+}
+.book-card{
+  display: inline-grid;
+  width: 340px;
+  margin-left: 215px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border: #292929 solid 1px;
+  border-radius: 20px;
+}
+.book-card h3{
+  text-align: center;
+  color: #ffffff;
+}
+.book-card p{
+  color: #b3b3b3;
+  text-align: center;
+
+}
+.book-card img{
+  height: 400px;
+  border-radius: 20px;
+  padding-left: 50px;
+  width: 250px;
+}
+#desc{
+  display: none;
+  text-align: center;
+  margin-left: 10px;
+  width: 330px;
+}
+.star{
+  margin-top: 20px;
+  color: rgb(224, 191, 0);
+  font-size: 30px;
+  text-align: center;
+}
+.show-btn{
+  padding: 8px;
+  margin:0px 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  color: #c9c9c9;
+  background-color: #202020;
+  border: solid 2px rgb(19, 19, 19);
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.show-btn:hover{
+  background-color: #313131;
+}
+.books-list .show-more{
+  text-align: center;
+  width: 150px;
+  font-size: 15px;
+  background-color: #b3b3b3;
+  border: 2px solid #292929;
+  border-radius:10px ;
+  padding: 5px;
+  font-weight: bold;
+  margin: 0 865px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.books-list .show-more:hover{
+  transition: 0.5s;
+  padding: 8px;
+  background-color: #cecece;
+}
+/*Contact us*/
+.contact{
+  border-top-left-radius:100%;
+  border-top-right-radius:100%;
+  margin-top: 50px;
+  background-color: #292929;
+  height: 550px;
+  
+}
+.contact h2{
+  text-align: center;
+  color: #b3b3b3;
+  font-size: 30px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.info span{
+  color: #b3b3b3;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+
+}
+.info input{
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 3px solid #181818;
+}
+.info textarea{
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 3px solid #181818;
+}
+.info .submit{
+  color: #b3b3b3;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  border: solid 2px #b3b3b3;
+  background-color: #181818;
+  transition: 0.5s;
+}
+.info .submit:hover{
+  padding: 15px 24px;
+  background-color: #1f1f1f;
+  transition: 0.5s;
+}
+/*Footer*/
+.footer{
+  background-color: #1f1f1f;
+  height: 140px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social p{
+  color: #b3b3b3;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+.social-ic{
+  margin: 0 10px;
+  color: beige;
+}
+.footer p{
+  text-align: center;
+  color: #b3b3b3;
+}
