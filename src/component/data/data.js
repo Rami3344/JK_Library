@@ -79,29 +79,29 @@ export const data =[
     }
     ,{
         id:10,
-        name:"You Are a Badass",
-        url:"https://libreair.tn/wp-content/uploads/2022/05/%D8%B5%D9%88%D8%B1%D8%A94s.jpg",
-        author:"Jen Sincero",
-        price:"9.99$",
-        description:"The #1 New York Times Bestseller You Are A Badass is the self-help book for people who desperately want to improve their lives but don't want to get busted doing it.",
-        star:4
+        name:"Her Royal Highness",
+        url:"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543361518l/41734205.jpg",
+        author:"Rachel Hawkins",
+        price:"8.99$",
+        description:"Millie Quint is devastated when she discovers that her sort-of-best friend/sort-of-girlfriend has been kissing someone else. And because Millie cannot stand the thought of confronting her ex every day, she decides to apply for scholarships to boarding schools . . . the farther from Houston the better.",
+        star:3
     }
     ,{
         id:11,
-        name:"You Are a Badass",
-        url:"https://libreair.tn/wp-content/uploads/2022/05/%D8%B5%D9%88%D8%B1%D8%A94s.jpg",
-        author:"Jen Sincero",
-        price:"9.99$",
-        description:"The #1 New York Times Bestseller You Are A Badass is the self-help book for people who desperately want to improve their lives but don't want to get busted doing it.",
+        name:"Confess",
+        url:"https://m.media-amazon.com/images/I/71FqJbRVo1L.jpg",
+        author:"Colleen Hoover",
+        price:"10.99$",
+        description:"Auburn Reed is determined to rebuild her shattered life and she has no room for mistakes. But when she walks into a Dallas art studio in search of a job, she doesn’t expect to become deeply attracted to the studio’s enigmatic artist, Owen Gentry.",
         star:4
     }
     ,{
         id:12,
-        name:"You Are a Badass",
-        url:"https://libreair.tn/wp-content/uploads/2022/05/%D8%B5%D9%88%D8%B1%D8%A94s.jpg",
-        author:"Jen Sincero",
-        price:"9.99$",
-        description:"The #1 New York Times Bestseller You Are A Badass is the self-help book for people who desperately want to improve their lives but don't want to get busted doing it.",
+        name:"It Ends with Us",
+        url:"https://images.epagine.fr/267/9781471156267_1_75.jpg",
+        author:"Colleen Hoover",
+        price:"10.99$",
+        description:"Lily hasn’t always had it easy, but that’s never stopped her from working hard for the life she wants. She’s come a long way from the small town in Maine where she grew up — she graduated from college, moved to Boston, and started her own business. So when she feels a spark with a gorgeous neurosurgeon named Ryle Kincaid, everything in Lily’s life suddenly seems almost too good to be true.",
         star:4
     }
 ];
